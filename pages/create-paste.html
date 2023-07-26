@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/Icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Paste.IT | Create Paste</title>
+</head>
+
+<body class="bg-light">
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><img src="/images/Logo.PNG" alt=""></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Legal</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="center-text bg-dark hero">
+        <div class="container">
+            <img src="/images/Logo.PNG" alt="">
+            <p>Just a simple place to paste text based ideas for all to see.</p>
+        </div>
+    </section>
+
+    <!-- CREATE PASTE SECTION -->
+    <section>
+        <div class="container">
+            <div class="form">
+                <form onsubmit="createPaste(event)" style="width: auto;">
+                    <label for="title">Title</label><br>
+                    <input style="width: 90%;" type="text" name="title" id="title" placeholder="Title"><br>
+                    <label for="paste">Paste</label><br>
+                    <textarea style="width: 90%;" name="paste" id="paste" rows="10" placeholder="Paste"></textarea><br>
+                    <input type="submit" value="Create">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
