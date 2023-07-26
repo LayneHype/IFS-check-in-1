@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/Icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>PASTE.IT | Home</title>
+</head>
+
+<body class="bg-light" onload="populateHomePage()">
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><img src="/images/Logo.PNG" alt=""></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Legal</a></li>
+        </ul>
+        <a class="nav-create-button" href="/pages/create-paste.html">Create</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="center-text bg-dark hero">
+        <div class="container">
+            <img src="/images/Logo.PNG" alt="">
+            <p>Just a simple place to paste text based ideas for all to see.</p>
+        </div>
+    </section>
+
+    <!-- PASTES + PROFILE SECTION -->
+    <section>
+        <div class="container split">
+
+            <!-- FEED DIV FOR PASTES -->
+            <div class="feed">
+                <!-- item 1  -->
+                <!-- <div class="feedItem">
+                    <h2>Lorem ipsum dolor sit amet consectetur!</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem vitae ipsa ducimus
+                        deleniti repellat, quis in amet omnis culpa nisi neque illum, veritatis nesciunt hic error
+                        obcaecati
+                        alias! Placeat sint quae quo eligendi, non earum hic eveniet necessitatibus itaque laudantium
+                        illum
+                        sequi! Magni repellat at ipsum pariatur illo, quo veniam maiores id quos rem! Incidunt quas
+                        cumque
+                        facere eveniet.
+                    </p>
+                    <div class="post-meta">
+                        <p>Author: Anon</p>
+                        <p>posted: 2021-01-01</p>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- ASIDE FOR THE PROFILE AND EXTRA -->
+            <aside>
+                <!-- PROFILE BLOCK -->
+                <div class="information bg-dark">
+                    <div class="profileInfo">
+                        <h2>Profile</h2>
+                        <hr>
+                        <div class="profileTop center-text">
+                            <h3>Anon</h3>
+                            <img src="/images/kk.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="info-content">
+                        <ul>
+                            <li>Member since: <span>2021-01-01</span></li>
+                            <li>Total Pastes: <span id="totalPastesCount">1</span></li>
+                            <li>User Pastes: <span>2</span></li>
+                            <li>Following: <span>23</span></li>
+                            <li>Followers: <span>68</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- SETTINGS BLOCK -->
+                <div class="information bg-dark">
+                    <h2>Settings</h2>
+                    <hr>
+                    <div class="info-content">
+                        <p><a href="#">Change Username</a></p>
+                        <p><a href="#">Change Password</a></p>
+                        <p><a href="#">Change Email</a></p>
+                        <p><a href="#">Change Profile Picture</a></p>
+                        <p><a href="#">Logout</a></p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
